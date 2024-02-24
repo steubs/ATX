@@ -2,7 +2,7 @@
 from datetime import datetime, timedelta
 from fastapi import FastAPI
 from supabase import create_client, Client
-from backend.database import supabase_middleman
+from database import supabase_middleman
 from routes import create_active_order
 from routes import buy_order
 from dotenv import load_dotenv
